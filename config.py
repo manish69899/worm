@@ -1,11 +1,11 @@
 import os
 
 # Bot Configuration
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8267212378:AAH-p44vCTnDIgMP0egDRIgsWNyz3mBNk50")
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN environment variable is required")
 
-ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "chat_id"))
+ADMIN_CHAT_ID = int(os.getenv("7503989848", "chat_id"))
 
 # Channels to join
 REQUIRED_CHANNELS = [
