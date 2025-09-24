@@ -47,7 +47,7 @@ class BotHandlers:
         
         # Check membership for NG_PRO_BOT_DEV channel
         try:
-            member = await context.bot.get_chat_member("@NG_PRO_BOT_DEV", user_id)
+            member = await context.bot.get_chat_member("@NIIKHIL9999", user_id)
             if member.status in [ChatMember.LEFT, ChatMember.BANNED]:
                 return False
         except Exception as e:
