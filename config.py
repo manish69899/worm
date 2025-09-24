@@ -9,7 +9,7 @@ ADMIN_CHAT_ID = int(os.getenv("7503989848", "chat_id"))
 
 # Channels to join
 REQUIRED_CHANNELS = [
-    {"name": "NG_PRO_BOT_DEV", "url": "https://t.me/NG_PRO_BOT_DEV", "chat_id": "@NG_PRO_BOT_DEV"},
+    {"name": "NIKHIL", "url": "https://t.me/NIIKHIL9999", "chat_id": "@NIIKHIL9999"},
 ]
 
 # Developer info
